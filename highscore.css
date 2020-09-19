@@ -1,0 +1,19 @@
+body {
+    background-image: url(https://wallpaperset.com/w/full/f/9/8/210373.jpg);
+    background-repeat: no-repeat;
+    background-size: 2000px 850px;
+}
+
+.jumbotron {
+    opacity: 0;
+}
+
+h2 {
+    color: black;
+    font-weight: 500;
+}
+
+.text-center {
+    color: black;
+    font-weight: 1000;
+}
