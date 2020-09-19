@@ -25,4 +25,12 @@ var {
     color: black
 }
 
+.text-center {
+    color: green;
+    font-weight: 900
+}
 
+body {
+    height: 100%;
+    width: 100%;
+}
