@@ -10,7 +10,18 @@ h2 {
     font-weight: 500;
 }
 
-#leaderboard {
+/* #leaderboard {
+    z-index: 999;
+    position: absolute;
+    color: black ;
+    font-size: calc([minimum size] + ([maximum size] - [minimum size]) * ((100vw - [minimum viewport width]) / ([maximum viewport width] - [minimum viewport width])));;
+    font-weight: bold;
+    left: 50px;
+    top: 200px;
+    opacity: 1;
+} */
+
+.li {
     z-index: 999;
     position: absolute;
     color: black ;
@@ -20,7 +31,6 @@ h2 {
     top: 200px;
     opacity: 1;
 }
-
 /* #text {
     z-index: 100;
     position: absolute;
