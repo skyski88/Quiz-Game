@@ -1,8 +1,8 @@
-/* body {
+body {
     background-image: url(https://wallpaperset.com/w/full/f/9/8/210373.jpg);
     background-repeat: no-repeat;
-    background-size: auto
-} */
+    background-size: cover;
+}
 
 /* .jumbotron {
     opacity: 0;
@@ -10,13 +10,18 @@
 
 h2 {
     color: black;
+    font-size: calc([minimum size] + ([maximum size] - [minimum size]) * ((100vw - [minimum viewport width]) / ([maximum viewport width] - [minimum viewport width])));
     font-weight: 500;
 }
 
 #leaderboard {
-    color: black;
-    font-size: x-large;
-    font-weight: 1000;
+    z-index: 100;
+    position: absolute;
+    color: black ;
+    font-size: calc([minimum size] + ([maximum size] - [minimum size]) * ((100vw - [minimum viewport width]) / ([maximum viewport width] - [minimum viewport width])));;
+    font-weight: bold;
+    left: 50px;
+    top: 200px;
 }
 
 .id {
@@ -24,3 +29,13 @@ h2 {
     font-size: x-large;
     font-weight: 1000;
 }
+
+/* #text {
+    z-index: 100;
+    position: absolute;
+    color: white;
+    font-size: 24px;
+    font-weight: bold;
+    left: 150px;
+    top: 350px;
+  } */
