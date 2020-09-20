@@ -11,13 +11,14 @@ h2 {
 }
 
 #leaderboard {
-    z-index: 100;
+    z-index: 999;
     position: absolute;
     color: black ;
     font-size: calc([minimum size] + ([maximum size] - [minimum size]) * ((100vw - [minimum viewport width]) / ([maximum viewport width] - [minimum viewport width])));;
     font-weight: bold;
     left: 50px;
     top: 200px;
+    opacity: 1;
 }
 
 .id {
