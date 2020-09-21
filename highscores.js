@@ -1,7 +1,7 @@
 var highScores = JSON.parse(localStorage.getItem("highScores")) || [];
 console.log("highScores",highScores)
 var highScoresElement = $("#leaderboard")
-for (i = 17; i < highScores.length; i++) {
+for (i = 0; i < highScores.length; i++) {
  var newElement =   document.createElement("li")
  newElement.textContent=highScores[i].initials + ":"+highScores[i].score
 //  newElement.addClass("texture")
